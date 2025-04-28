@@ -33,3 +33,43 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.increment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.increase-button {
+    background-color: #bbe431;
+    text-color: black;
+    box-shadow: 4px 4px 3px black;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.decrease-button {
+    background-color: #df6325;
+    text-color: black;
+    box-shadow: 4px 4px 3px black;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.reset-button {
+    background-color: #29dfcf;
+    text-color: black;
+    box-shadow: 4px 4px 3px black;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 20px;
+}

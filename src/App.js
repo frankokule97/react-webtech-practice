@@ -45,10 +45,10 @@ function App () {
                 display: "flex",
                 gap: "2rem"
             }}>
-                <Button buttonName="Click me" color="#1d84c8" textColor="white" borderRadius="unset" border="1px solid black" />
-                <Button buttonName="Submit" color="#1bb41b" textColor="white" borderRadius="7.5px" border="unset"/>
-                <Button buttonName="Cancel" color="#ec5d6e" textColor="white" borderRadius="20px" border="1px solid black"/>
-                <Button buttonName="Reset" color="#e2b33d" textColor="black" borderRadius="4px" border="unset"/>
+                <Button buttonName="Click me" color="#1d84c8" textColor="white" borderRadius="unset" border="1px solid black" boxShadow="4px 4px 3px lightgray"/>
+                <Button buttonName="Submit" color="#1bb41b" textColor="white" borderRadius="7.5px" border="unset" boxShadow="4px 4px 3px lightgray"/>
+                <Button buttonName="Cancel" color="#ec5d6e" textColor="white" borderRadius="20px" border="1px solid black" boxShadow="4px 4px 3px lightgray"/>
+                <Button buttonName="Reset" color="#e2b33d" textColor="black" borderRadius="4px" border="unset" boxShadow="4px 4px 3px lightgray"/>
             </div>
         </div>
     )
