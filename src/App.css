@@ -54,6 +54,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .decrease-button {
@@ -63,6 +64,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .reset-button {
@@ -72,4 +74,5 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 10px 20px;
+    cursor: pointer;
 }
