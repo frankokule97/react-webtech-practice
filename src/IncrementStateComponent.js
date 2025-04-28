@@ -15,7 +15,6 @@ class IncrementStateComponent extends React.Component {
         this.setState({
             count: this.state.count + 1
         });
-        console.log(this.state.count);
     }
 
     decrease = () => {
