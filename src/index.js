@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import ClassComponent from "./ClassComponent";
 // import App from "./App";
-import HeaderComponent from "./HeaderComponent";
-import NavComponent from "./NavComponent";
-import MainComponent from "./MainComponent";
-import FooterComponent from "./FooterComponent";
+// import HeaderComponent from "./HeaderComponent";
+// import NavComponent from "./NavComponent";
+// import MainComponent from "./MainComponent";
+// import FooterComponent from "./FooterComponent";
+import App from "./App";
 
 let el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
@@ -16,10 +17,11 @@ const root = ReactDOM.createRoot(el);
 
 root.render(
     <>
-        <HeaderComponent/>
+        {/*<HeaderComponent/>
         <NavComponent />
         <MainComponent />
-        <FooterComponent />
+        <FooterComponent />*/}
+        <App />
     </>
 );
 
