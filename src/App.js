@@ -24,7 +24,7 @@ function App() {
 
 export default App;*/
 
-// props practice
+/*// props practice
 import React from "react";
 import Button from "./Button"
 
@@ -50,6 +50,27 @@ function App () {
                 <Button buttonName="Cancel" color="#ec5d6e" textColor="white" borderRadius="20px" border="1px solid black"/>
                 <Button buttonName="Reset" color="#e2b33d" textColor="black" borderRadius="4px" border="unset"/>
             </div>
+        </div>
+    )
+}
+
+export default App;*/
+
+import React from "react";
+import "./App.css";
+
+function subscribe () {
+    return alert("Thank you very much!");
+}
+function dontSubscribe () {
+    return alert("Please reconsider your decision");
+}
+
+const App = () => {
+    return (
+        <div className="container">
+            <div onMouseOver={subscribe} className="first-circle">I will subscribe</div>
+            <div onMouseOver={dontSubscribe} className="second-circle">I won't subscribe</div>
         </div>
     )
 }

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 20rem;
+}
+
+.first-circle {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    background: #0c950c;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.second-circle {
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    background: #f03b3b;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
