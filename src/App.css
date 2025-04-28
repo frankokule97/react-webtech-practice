@@ -76,3 +76,32 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.potter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 5rem;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-container {
+    background-color: #f1f3f3;
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    height: 18.8rem;
+}
+
+.image {
+    padding-right: 2rem;
+}
