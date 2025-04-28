@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom/client';
 // import MainComponent from "./MainComponent";
 // import FooterComponent from "./FooterComponent";
 // import App from "./App";
-import IncrementStateComponent from "./IncrementStateComponent";
+// import IncrementStateComponent from "./IncrementStateComponent";
+import ButtonFn from "./ButtonFn";
 
 let el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
@@ -22,8 +23,9 @@ root.render(
         <NavComponent />
         <MainComponent />
         <FooterComponent />
-        <App />*/}
-        <IncrementStateComponent />
+        <App />
+        <IncrementStateComponent />*/}
+        <ButtonFn />
     </>
 );
 
