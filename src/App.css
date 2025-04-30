@@ -203,3 +203,34 @@
 .table-row {
     padding: 0.8rem;
 }
+
+.conditional-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conditional-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecc78f;
+    height: 52rem;
+    color: #723508;
+}
+
+.conditional-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #723508;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.link.active {
+    color: #15dc1b;
+}
