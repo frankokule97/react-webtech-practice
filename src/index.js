@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ConditionalComponent from "./ConditionalComponent";
 // import ClassComponent from "./ClassComponent";
 // import App from "./App";
 // import HeaderComponent from "./HeaderComponent";
@@ -12,6 +11,8 @@ import ConditionalComponent from "./ConditionalComponent";
 // import ButtonFn from "./ButtonFn";
 // import Images from "./Images";
 // import Student from "./Student";
+// import ConditionalComponent from "./ConditionalComponent";
+import UseRefComponent from "./UseRefComponent";
 
 let el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
@@ -30,8 +31,9 @@ root.render(
         <IncrementStateComponent />
         <ButtonFn />
         <Images />
-        <Student />*/}
-        <ConditionalComponent />
+        <Student />
+        <ConditionalComponent />*/}
+        <UseRefComponent />
     </>
 );
 

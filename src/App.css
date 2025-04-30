@@ -234,3 +234,44 @@
 .link.active {
     color: #15dc1b;
 }
+
+.useRef-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2d2d;
+    height: 56rem;
+}
+
+.inputRef-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+.inputRef {
+    height: 2rem;
+    width: 15rem;
+}
+
+.inputRef.focus {
+    border: 1px solid #d62cb8;
+}
+
+.buttonRef-container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    padding-top: 4rem;
+}
+
+.buttonRef {
+    height: 1.8rem;
+    color: #ffffff;
+    background-color: #d62cb8;
+    width: 6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
