@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom/client';
 // import App from "./App";
 // import IncrementStateComponent from "./IncrementStateComponent";
 // import ButtonFn from "./ButtonFn";
-import Images from "./Images";
+// import Images from "./Images";
+import Student from "./Student";
 
 let el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
@@ -26,8 +27,9 @@ root.render(
         <FooterComponent />
         <App />
         <IncrementStateComponent />
-        <ButtonFn />*/}
-        <Images />
+        <ButtonFn />
+        <Images />*/}
+        <Student />
     </>
 );
 
