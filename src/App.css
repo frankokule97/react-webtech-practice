@@ -256,8 +256,9 @@
     width: 15rem;
 }
 
-.inputRef.focus {
-    border: 1px solid #d62cb8;
+.inputRef:focus {
+    outline: none;
+    border: 2px solid #d62cb8 !important;
 }
 
 .buttonRef-container {
@@ -274,4 +275,8 @@
     width: 6rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.buttonRef.active {
+    border: 2px solid #4ddc1f;
 }
