@@ -13,6 +13,7 @@ import ReactDOM from 'react-dom/client';
 // import Student from "./Student";
 // import ConditionalComponent from "./ConditionalComponent";
 import UseRefComponent from "./UseRefComponent";
+import ParentComponent from "./ParentComponent";
 
 let el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
@@ -32,8 +33,9 @@ root.render(
         <ButtonFn />
         <Images />
         <Student />
-        <ConditionalComponent />*/}
-        <UseRefComponent />
+        <ConditionalComponent />
+        <UseRefComponent />*/}
+        <ParentComponent />
     </>
 );
 
